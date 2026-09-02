@@ -119,7 +119,7 @@ header {
 
 /* Header móvil */
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 440px) {
   header {
     .container-header {
       flex-direction: column;
@@ -138,7 +138,7 @@ header {
 
 /* Header tablet */
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 441px) and (max-width: 1024px) {
   header {
     .container-header {
       flex-direction: column;
@@ -233,7 +233,7 @@ header {
 
 /* Hero móvil */
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 440px) {
   .hero {
     height: 30rem;
 
@@ -259,7 +259,7 @@ header {
 
 /* Hero tablet */
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 441px) and (max-width: 1024px) {
   .hero {
     .container-hero {
       width: 90%;
@@ -309,7 +309,7 @@ header {
 
 /* Datos móvil */
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 440px) {
   .seccion-2 {
     .container-datos {
       flex-direction: column;
@@ -325,7 +325,7 @@ header {
 
 /* Datos tablet */
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 441px) and (max-width: 1024px) {
   .seccion-2 {
     .container-datos {
       width: 90%;
@@ -598,7 +598,7 @@ header {
 
 /* Sección servicios móvil */
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 440px) {
   .seccion-servicios {
     .container-servicios {
       width: 90%;
@@ -645,7 +645,7 @@ header {
 
 /* Sección servicios tablet */
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 441px) and (max-width: 1024px) {
   .seccion-servicios {
     .container-servicios {
       width: 90%;
@@ -684,7 +684,7 @@ header {
 
 /* Sección corte 1 móvil */
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 440px) {
   .seccion-corte-1 {
     height: 30rem;
 
@@ -698,7 +698,7 @@ header {
 
 /* Sección corte 1 tablet */
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 441px) and (max-width: 1024px) {
   .seccion-corte-1 {
     height: 30rem;
 
@@ -878,7 +878,7 @@ header {
 
 /* Sección reseñas móvil */
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 440px) {
   .seccion-reseñas {
     .container-reseñas {
       width: 90%;
@@ -895,7 +895,7 @@ header {
 
 /* Sección reseñas tablet */
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 441px) and (max-width: 1024px) {
   .seccion-reseñas {
     .container-reseñas {
       width: 90%;
@@ -963,7 +963,7 @@ header {
 
 /* Sección corte 2 móvil */
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 440px) {
   .seccion-corte-2 {
     .container-corte-2 {
       h3 {
@@ -981,7 +981,7 @@ header {
 
 /* Sección corte 2 tablet */
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 441px) and (max-width: 1024px) {
   .seccion-corte-2 {
     .container-corte-2 {
       h3 {
@@ -1066,7 +1066,7 @@ header {
 
 /* Sección redes móvil */
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 440px) {
   .seccion-redes {
     .container-redes {
       width: 90%;
@@ -1083,7 +1083,7 @@ header {
 
 /* Sección redes tablet */
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 441px) and (max-width: 1024px) {
   .seccion-redes {
     .container-redes {
       width: 90%;
@@ -1150,7 +1150,7 @@ footer {
 
 /* footer móvil */
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 440px) {
   footer {
     .container-footer {
       .container-links-footer {
