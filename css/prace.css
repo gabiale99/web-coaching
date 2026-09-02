@@ -337,6 +337,7 @@ header {
         padding: 2rem;
         border: 1px solid var(--background-card);
         border-radius: 5px;
+        transition: 0.3s ease-in-out;
 
         svg {
           color: var(--color-primary);
@@ -348,12 +349,22 @@ header {
           span {
             font-size: 1.2rem;
             color: var(--color-third);
+            transition: 0.3s ease-in-out;
+
+            &:hover {
+              color: var(--color-secondary);
+              text-decoration: underline;
+            }
           }
         }
 
         span {
           font-family: "JetBrains Mono", monospace;
           color: var(--color-primary);
+        }
+
+        &:hover {
+          border: 1px solid var(--color-secondary);
         }
       }
     }

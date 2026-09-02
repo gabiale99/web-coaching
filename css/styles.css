@@ -117,6 +117,25 @@ header {
   }
 }
 
+/* Header móvil */
+
+@media screen and (max-width: 425px) {
+  header {
+    .container-header {
+      flex-direction: column;
+      align-items: start;
+      gap: 2rem;
+      padding: 3rem 0;
+
+      nav {
+        ul {
+          flex-direction: column;
+        }
+      }
+    }
+  }
+}
+
 /* Hero */
 
 .hero {
@@ -193,6 +212,32 @@ header {
   }
 }
 
+/* Hero móvil */
+
+@media screen and (max-width: 425px) {
+  .hero {
+    height: 30rem;
+
+    .container-hero {
+      width: 90%;
+      text-align: center;
+
+      h2 {
+        font-size: 3rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+
+      .conteiner-buttons {
+        flex-direction: column;
+        width: 100%;
+      }
+    }
+  }
+}
+
 /* Datos */
 
 .seccion-2 {
@@ -228,6 +273,22 @@ header {
       width: 1px;
       height: 70px;
       background-color: var(--linea);
+    }
+  }
+}
+
+/* Datos móvil */
+
+@media screen and (max-width: 425px) {
+  .seccion-2 {
+    .container-datos {
+      flex-direction: column;
+      gap: 2rem;
+
+      .linea {
+        width: 70%;
+        height: 1px;
+      }
     }
   }
 }
@@ -494,6 +555,53 @@ header {
   }
 }
 
+/* Sección servicios móvil */
+
+@media screen and (max-width: 425px) {
+  .seccion-servicios {
+    .container-servicios {
+      width: 90%;
+      margin: auto;
+      padding: 5rem 0rem;
+
+      .container-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+
+        .card-info-1 {
+          grid-column: 1/2;
+          grid-row: 1/2;
+        }
+
+        .card-info-2 {
+          grid-column: 1/2;
+          grid-row: 2/3;
+        }
+
+        .card-info-3 {
+          grid-column: 1/2;
+          grid-row: 3/4;
+        }
+
+        .card-info-4 {
+          grid-column: 1/2;
+          grid-row: 4/5;
+        }
+
+        .card-info-5 {
+          grid-column: 1/2;
+          grid-row: 5/6;
+        }
+
+        .card-info-6 {
+          grid-column: 1/2;
+          grid-row: 6/7;
+        }
+      }
+    }
+  }
+}
+
 /* Sección corte 1 */
 
 .seccion-corte-1 {
@@ -517,6 +625,20 @@ header {
       text-align: center;
       font-size: 8rem;
       color: var(--color-primary);
+    }
+  }
+}
+
+/* Sección corte 1 móvil */
+
+@media screen and (max-width: 425px) {
+  .seccion-corte-1 {
+    height: 30rem;
+
+    .container-corte-1 {
+      h3 {
+        font-size: 3rem;
+      }
     }
   }
 }
@@ -687,6 +809,23 @@ header {
   }
 }
 
+/* Sección reseñas móvil */
+
+@media screen and (max-width: 425px) {
+  .seccion-reseñas {
+    .container-reseñas {
+      width: 90%;
+      margin: auto;
+      padding: 5rem 0;
+
+      .container-reseñas-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+      }
+    }
+  }
+}
+
 /* Sección corte 2 */
 
 .seccion-corte-2 {
@@ -737,6 +876,24 @@ header {
 
         &:hover {
           background-color: #c30512;
+        }
+      }
+    }
+  }
+}
+
+/* Sección corte 2 móvil */
+
+@media screen and (max-width: 425px) {
+  .seccion-corte-2 {
+    .container-corte-2 {
+      h3 {
+        font-size: 3.5rem;
+      }
+
+      .btn-reserva {
+        a {
+          font-size: 1rem;
         }
       }
     }
@@ -816,6 +973,23 @@ header {
   }
 }
 
+/* Sección redes móvil */
+
+@media screen and (max-width: 425px) {
+  .seccion-redes {
+    .container-redes {
+      width: 90%;
+      margin: auto;
+      padding: 5rem 0;
+
+      .redes-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+      }
+    }
+  }
+}
+
 /* footer */
 
 footer {
@@ -867,6 +1041,20 @@ footer {
     .redechos {
       color: var(--color-primary);
       text-align: center;
+    }
+  }
+}
+
+/* footer móvil */
+
+@media screen and (max-width: 425px) {
+  footer {
+    .container-footer {
+      .container-links-footer {
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+      }
     }
   }
 }
