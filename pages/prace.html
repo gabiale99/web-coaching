@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/prace.css" />
+    <script src="../js/script.js" defer></script>
     <title>Box Racing Academy</title>
   </head>
   <body>
@@ -13,14 +14,34 @@
           <a href="../index.html">
             <h1>Box Racing Academy</h1>
           </a>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="icon icon-tabler icons-tabler-filled icon-tabler-menu-2"
+            id="btn-menu"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path
+              d="M21 6a1 1 0 0 1 -1 1h-16a1 1 0 1 1 0 -2h16a1 1 0 0 1 1 1"
+            />
+            <path
+              d="M21 12a1 1 0 0 1 -1 1h-16a1 1 0 0 1 0 -2h16a1 1 0 0 1 1 1"
+            />
+            <path
+              d="M21 18a1 1 0 0 1 -1 1h-16a1 1 0 0 1 0 -2h16a1 1 0 0 1 1 1"
+            />
+          </svg>
         </div>
-        <nav>
+        <nav id="nav" class="close">
           <ul>
             <li><a href="#servicio">Servicio</a></li>
             <li><a href="#contacto">Contactar</a></li>
           </ul>
         </nav>
-        <div class="container-button-header">
+        <div class="container-button-header close-button" id="buton-coaching">
           <a href="#">Comenzar coaching</a>
         </div>
       </div>
