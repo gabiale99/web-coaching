@@ -136,6 +136,25 @@ header {
   }
 }
 
+/* Header tablet */
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  header {
+    .container-header {
+      flex-direction: column;
+      align-items: start;
+      gap: 2rem;
+      padding: 3rem 0;
+
+      nav {
+        ul {
+          flex-direction: column;
+        }
+      }
+    }
+  }
+}
+
 /* Hero */
 
 .hero {
@@ -238,6 +257,17 @@ header {
   }
 }
 
+/* Hero tablet */
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .hero {
+    .container-hero {
+      width: 90%;
+      text-align: center;
+    }
+  }
+}
+
 /* Datos */
 
 .seccion-2 {
@@ -289,6 +319,17 @@ header {
         width: 70%;
         height: 1px;
       }
+    }
+  }
+}
+
+/* Datos tablet */
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .seccion-2 {
+    .container-datos {
+      width: 90%;
+      margin: auto;
     }
   }
 }
@@ -602,6 +643,18 @@ header {
   }
 }
 
+/* Sección servicios tablet */
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .seccion-servicios {
+    .container-servicios {
+      width: 90%;
+      margin: auto;
+      padding: 5rem 0rem;
+    }
+  }
+}
+
 /* Sección corte 1 */
 
 .seccion-corte-1 {
@@ -638,6 +691,20 @@ header {
     .container-corte-1 {
       h3 {
         font-size: 3rem;
+      }
+    }
+  }
+}
+
+/* Sección corte 1 tablet */
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .seccion-corte-1 {
+    height: 30rem;
+
+    .container-corte-1 {
+      h3 {
+        font-size: 5.5rem;
       }
     }
   }
@@ -826,6 +893,18 @@ header {
   }
 }
 
+/* Sección reseñas tablet */
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .seccion-reseñas {
+    .container-reseñas {
+      width: 90%;
+      margin: auto;
+      padding: 5rem 0;
+    }
+  }
+}
+
 /* Sección corte 2 */
 
 .seccion-corte-2 {
@@ -895,6 +974,18 @@ header {
         a {
           font-size: 1rem;
         }
+      }
+    }
+  }
+}
+
+/* Sección corte 2 tablet */
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .seccion-corte-2 {
+    .container-corte-2 {
+      h3 {
+        font-size: 4rem;
       }
     }
   }
@@ -986,6 +1077,18 @@ header {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(4, 1fr);
       }
+    }
+  }
+}
+
+/* Sección redes tablet */
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .seccion-redes {
+    .container-redes {
+      width: 90%;
+      margin: auto;
+      padding: 5rem 0;
     }
   }
 }
