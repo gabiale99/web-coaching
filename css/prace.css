@@ -136,6 +136,25 @@ header {
   }
 }
 
+/* Header tablet */
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  header {
+    .container-header {
+      flex-direction: column;
+      align-items: start;
+      gap: 2rem;
+      padding: 3rem 0;
+
+      nav {
+        ul {
+          flex-direction: column;
+        }
+      }
+    }
+  }
+}
+
 /* Hero */
 
 .hero {
@@ -228,6 +247,17 @@ header {
       .conteiner-buttons {
         flex-direction: column;
       }
+    }
+  }
+}
+
+/* Hero tablet */
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .hero {
+    .container-hero {
+      width: 90%;
+      text-align: center;
     }
   }
 }
@@ -376,6 +406,20 @@ header {
   }
 }
 
+/* Sección pago y datos tablet */
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .seccion-pago {
+    .container-pago {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(2, 1fr);
+      width: 90%;
+      margin: auto;
+      padding: 5rem 0;
+    }
+  }
+}
+
 /* Sección de contacto */
 
 .seccion-contacto {
@@ -453,7 +497,7 @@ header {
   }
 }
 
-/* Sección de contacto */
+/* Sección de contacto móvil */
 
 @media screen and (max-width: 425px) {
   .seccion-contacto {
@@ -478,6 +522,19 @@ header {
           width: 100%;
         }
       }
+    }
+  }
+}
+
+/* Sección de contacto tablet */
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .seccion-contacto {
+    .container-contacto {
+      width: 90%;
+      margin: auto;
+      padding: 5rem 0;
+      gap: 1rem;
     }
   }
 }
