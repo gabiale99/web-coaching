@@ -61,12 +61,20 @@ header {
 
     .container-header-title {
       a {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
         text-decoration: none;
         color: var(--color-primary);
         transition: 0.3s ease-in-out;
 
         h1 {
           font-size: 1.8rem;
+        }
+
+        img {
+          width: 3rem;
         }
 
         &:hover {
@@ -137,6 +145,12 @@ header {
         justify-content: space-between;
         align-items: center;
 
+        a {
+          img {
+            display: none;
+          }
+        }
+
         svg {
           display: block;
           color: var(--color-secondary);
@@ -183,6 +197,12 @@ header {
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        a {
+          img {
+            display: none;
+          }
+        }
 
         svg {
           display: block;
