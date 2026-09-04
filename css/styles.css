@@ -829,6 +829,7 @@ header {
         background-color: var(--background-card);
         padding: 2rem;
         border-radius: 5px;
+        position: relative;
 
         .container-text-reseñas {
           p {
@@ -862,6 +863,14 @@ header {
           p {
             color: var(--color-third);
           }
+        }
+
+        img {
+          position: absolute;
+          width: 10rem;
+          top: 1rem;
+          left: 17rem;
+          opacity: 0.1;
         }
       }
 
@@ -873,6 +882,7 @@ header {
         background-color: var(--background-card);
         padding: 2rem;
         border-radius: 5px;
+        position: relative;
 
         .container-text-reseñas {
           p {
@@ -906,6 +916,14 @@ header {
           p {
             color: var(--color-third);
           }
+        }
+
+        img {
+          position: absolute;
+          width: 10rem;
+          top: 1rem;
+          left: 17rem;
+          opacity: 0.1;
         }
       }
 
@@ -917,6 +935,7 @@ header {
         background-color: var(--background-card);
         padding: 2rem;
         border-radius: 5px;
+        position: relative;
 
         .container-text-reseñas {
           p {
@@ -950,6 +969,14 @@ header {
           p {
             color: var(--color-third);
           }
+        }
+
+        img {
+          position: absolute;
+          width: 10rem;
+          top: 1rem;
+          left: 17rem;
+          opacity: 0.1;
         }
       }
     }
@@ -964,6 +991,24 @@ header {
       width: 90%;
       margin: auto;
       padding: 5rem 0;
+
+      .card-reseña-1 {
+        img {
+          display: none;
+        }
+      }
+
+      .card-reseña-2 {
+        img {
+          display: none;
+        }
+      }
+
+      .card-reseña-3 {
+        img {
+          display: none;
+        }
+      }
 
       .container-reseñas-grid {
         grid-template-columns: 1fr;
@@ -981,6 +1026,24 @@ header {
       width: 90%;
       margin: auto;
       padding: 5rem 0;
+
+      .card-reseña-1 {
+        img {
+          display: none;
+        }
+      }
+
+      .card-reseña-2 {
+        img {
+          display: none;
+        }
+      }
+
+      .card-reseña-3 {
+        img {
+          display: none;
+        }
+      }
     }
   }
 }
