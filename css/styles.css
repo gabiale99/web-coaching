@@ -1278,6 +1278,10 @@ footer {
             a {
               color: var(--color-third);
               text-decoration: none;
+
+              &:hover {
+                text-decoration: underline;
+              }
             }
           }
         }
